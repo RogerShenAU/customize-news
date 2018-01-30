@@ -1,2 +1,2 @@
-# customize-news
-Customize news extension for Firefox browser
+## Description
+Plugin for firefox to display customize news
