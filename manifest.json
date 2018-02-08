@@ -6,13 +6,18 @@
   "version": "1.0",
   "homepage_url": "https://github.com/rogershenau/customize-news",
   "icons": {
+    "32": "icons/news-32.png",
     "48": "icons/news-48.png"
   },
 
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["js/background.js"]
   },
 
+  "permissions": [
+    "<all_urls>"
+  ],
+  
   "browser_action": {
     "default_icon": "icons/news-32.png"
   }

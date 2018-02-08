@@ -2,10 +2,10 @@
 Open a new tab, and load "my-page.html" into it.
 */
 function openMyPage() {
-  console.log("injecting");
-   browser.tabs.create({
-     "url": "/news.html"
+  var creating = browser.tabs.create({
+     "url": "index.html"
    });
+  creating.then(onCreated, onError);
 }
 
 
