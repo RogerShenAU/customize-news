@@ -1,1 +1,9 @@
 /* customize css */
+#feeds .carousel-container{
+    display: flex;
+}
+.carousel.is-4 .carousel-container{
+    left: 0;
+    -webkit-transform: 0;
+    transform: 0;
+}
